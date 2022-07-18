@@ -30,11 +30,16 @@
     color: #1a1a1a;
     transition: 0.3s ease;
 }
-
-.menu-link li a:hover,
-.menu-link li a.active {
+.menu-link ul li:active{
     color: #088178;
 }
+
+.menu-link li a:hover,
+.menu-link li a.active
+ {
+    color: #088178;
+}
+
 
 .menu-link li a.active::after,
 .menu-link li a:hover::after {
@@ -96,4 +101,5 @@
     margin-left: -40px;
     top: 65px;
 }
+
 }
