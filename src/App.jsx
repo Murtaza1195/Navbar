@@ -7,6 +7,7 @@ import Blog from '../src/Pages/Blog'
 import Services from '../src/Pages/Services'
 import Contact from '../src/Pages/Contact'
 import Navbar from './components/Navbar';
+import Topbar from './components/Topbar';
 
 
 const App = () => {
@@ -14,6 +15,8 @@ const App = () => {
   return(
     <>
     {/* But yahan to prop bheja hi nahi, to get kesay kr rahay, values get ho hi nahi rahi */}
+    
+    <Topbar/>
     <Navbar/>
     <Routes>
     <Route  path = '/'   element= {<Home />}/>

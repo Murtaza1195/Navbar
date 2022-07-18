@@ -4,8 +4,17 @@
                 padding: 0;
                 box-sizing: border-box;
                 font-family: 'Spartan', sans-serif;
+                
             }
             
             body {
                 width: 100%;
+                background: aliceblue;
             }
+              
+         .silder{
+            width:80%;
+            margin:auto;
+            padding:20px 0;
+           
+         }   
