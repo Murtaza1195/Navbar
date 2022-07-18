@@ -11,10 +11,30 @@
                 width: 100%;
                 background: aliceblue;
             }
+            .top-header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+            }
+            
+            .top-header .right{
+                margin-right: 30px;
+            }
+            .top-header .right a{
+                margin : 0 7px;
+            }
+            .top-header p{
+                font-size: 20px;
+               margin-left: 65px;
+               letter-spacing: 0.1rem;
+               font-weight: 700;
+            }
               
-         .silder{
+         /* .silder{
             width:80%;
             margin:auto;
             padding:20px 0;
            
-         }   
+         }    */

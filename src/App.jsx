@@ -8,6 +8,7 @@ import Services from '../src/Pages/Services'
 import Contact from '../src/Pages/Contact'
 import Navbar from './components/Navbar';
 import Topbar from './components/Topbar';
+import { slideData } from './Slidedata';
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
     <Navbar/>
     <Routes>
     <Route  path = '/'   element= {<Home />}/>
-    {/* <Route  path = '/home'   element= {<Home />}/> */}
+    <Route  path = '/home'   element= {<Home />}/> 
     <Route path = '/about'   element= {<About />}/>
     <Route path = '/Blog'   element= {<Blog />}/>
     <Route path = '/Services'   element= {<Services />}/>

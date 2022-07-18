@@ -7,28 +7,32 @@ export  const slideData = [
 
   {
    id : 1,
-   img : `${first}`
+   img : `${first}`,
+   url:'/'
 
 
   },
 
   {
     id : 2,
-    img : `${second}`
+    img : `${second}`,
+    url:'/'
  
  
    }
    ,
    {
     id : 3,
-    img : `${third}`
+    img : `${third}`,
+    url:'/'
  
  
    }
    ,
    {
     id : 4,
-    img :` ${forth}`
+    img :` ${forth}`,
+    url:'/'
  
    }
    
