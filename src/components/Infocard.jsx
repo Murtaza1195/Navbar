@@ -10,7 +10,7 @@ const Infocard = () => {
     <>
     <div className = 'container'>
       <div className="row">
-        <div className="col-sm">
+        <div className="col-md-6 col-style">
           
             {Carddata.map((props) => {
               return (
