@@ -10,7 +10,7 @@ const Topbar = () => {
   return (
     <>
       <div className="top-header">
-        <div class= 'left'>
+        <div className= 'left'>
           <p>
             {displayTodayDate} {curTime}
           </p>

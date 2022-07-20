@@ -44,7 +44,7 @@ export const Socialdata = [
   }
   ,
   {
-    id : 3,
+    id : 4,
     borderColor: 'rgba(0,0,0,0.25)',
     icon: 'pinterest', 
     iconColor:'rgba(255,255,255,1)',
