@@ -8,12 +8,14 @@ import "../index.css";
 const Infocard = () => {
   return (
     <>
+    <div className = 'container'>
       <div className="row">
-        <div className="col-md-4">
-          <div className="card text-center">
+        <div className="col-sm">
+          
             {Carddata.map((props) => {
               return (
                 <>
+                <div className="card text-center" key = {props.id}>
                   <img src={props.img} class="card-img-top" alt="img" />
                   <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
@@ -40,12 +42,14 @@ const Infocard = () => {
                       </a>
                     </div>
                   </div>
+                  </div>
                 </>
               );
             })}
-          </div>
+          
         </div>
       </div>
+     </div>
     </>
   );
 };

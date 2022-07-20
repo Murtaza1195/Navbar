@@ -36,6 +36,7 @@ const menu = [
 const Carddata = [
 
  {
+  id : 1,
   title : 'Jack Bauer',
   Phone : '+7387384587',
   Email : 'jack@nowhere.com',
@@ -44,6 +45,7 @@ const Carddata = [
  }
  ,
  {
+  id : 2,
   title : 'Beyonce',
   Phone : '+123 456 789',
   Email : 'jack@nowhere.com',
