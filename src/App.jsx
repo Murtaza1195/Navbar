@@ -9,6 +9,7 @@ import Contact from '../src/Pages/Contact'
 import Navbar from './components/Navbar';
 import Topbar from './components/Topbar';
 import { slideData } from './Slidedata';
+import Infocard from './components/Infocard';
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
     <Route path = '/Services'   element= {<Services />}/>
     <Route path = '/Contact'   element= {<Contact />}/>
   </Routes>
+   
   </>
 
   );

@@ -15,6 +15,7 @@ export const Socialdata = [
     backgroundColor:'rgba(26,166,233,1)', 
     url:'https://some-website.com/my-social-media-url', 
     size:42,
+    margin: '7px'
   
      
   },
@@ -26,7 +27,7 @@ export const Socialdata = [
     backgroundColor:'rgba(26,166,233,1)', 
     url:'https://some-website.com/my-social-media-url', 
     size:42,
-   
+    margin: '7px'
   },
 
   {
@@ -37,7 +38,7 @@ export const Socialdata = [
     backgroundColor:'rgba(26,166,233,1)', 
     url:'https://some-website.com/my-social-media-url', 
     size:42,
-    
+    margin: '7px'
 
 
   }
@@ -50,6 +51,6 @@ export const Socialdata = [
     backgroundColor:'rgba(26,166,233,1)', 
     url:'https://some-website.com/my-social-media-url', 
     size:42,
-   
+  
   }
 ]

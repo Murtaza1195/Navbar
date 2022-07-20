@@ -31,10 +31,25 @@
                letter-spacing: 0.1rem;
                font-weight: 700;
             }
-              
+            .Social-link a{
+                margin: 0 5px;
+            }
          /* .silder{
             width:80%;
             margin:auto;
             padding:20px 0;
            
          }    */
+
+         .cardInfo{
+            display:flex;
+            flex-direction: row;
+            
+         }
+
+
+
+         .card{
+           width: 18rem;
+
+         }

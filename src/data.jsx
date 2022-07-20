@@ -33,7 +33,30 @@ const menu = [
     url:'/Contact'
   }
 ]
+const Carddata = [
 
+ {
+  title : 'Jack Bauer',
+  Phone : '+7387384587',
+  Email : 'jack@nowhere.com',
+  Gender : 'Male',
+  img : 'https://pbs.twimg.com/profile_images/625247595825246208/X3XLea04_400x400.jpg',
+ }
+ ,
+ {
+  title : 'Beyonce',
+  Phone : '+123 456 789',
+  Email : 'jack@nowhere.com',
+  Gender : 'Female',
+  img : 'https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg',
+
+ }
+ 
+
+
+
+]
 
 
 export default menu
+export {Carddata}
