@@ -9,22 +9,16 @@ const Infocard = (props) => {
   // Write code here and apply property chalein wo lekh ky apko inform krta hn per ap dekh lein
 
   return (
-    <>
-      
-      <div className="infoCard ">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-4">
-              {/* Infocard ko wrap kahan kiya hua?wrap mean? container kidhar hai es se pehle wo b kr ky dekh chuka hn but har card alag sa bnata hain ek class mei ni show hota */}
-              <div className="card text-center" key={props.id}>
-                <img src={props.img} className="card-img-top" alt="img" />
-                <div className="card-body">
-                  <h5 className="card-title">{props.title}</h5>
-                  <div className="card-text">
-                    <p>{props.Phone}</p>
-                    <p>{props.Email}</p>
-                    <p>{props.Gender}</p>
-                    <a href="/">
+    <>   
+<div className="container">
+    <div className="card">
+    <img src={props.img} className="card-img-top" alt="img" />
+      <div className="card__body">
+        <h2 className="card__title">{props.title}</h2>
+        <p className="card__phone">{props.phone}</p>
+        <h3 className="card__Email">{props.Email}</h3>
+        <h3 className="card__Email">{props.Gender}</h3>
+        <a href="/">
                       {Socialdata.map((item) => {
                         return (
                           <SocialMediaIconsReact
@@ -40,13 +34,12 @@ const Infocard = (props) => {
                         );
                       })}
                     </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
       </div>
+    </div>
+    </div>
+
+
     </>
   );
 };

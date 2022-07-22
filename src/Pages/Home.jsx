@@ -11,21 +11,33 @@ const Home = () => {
   return (
     <>
     <Slider />
+    <div className="container">
+    <div className="wrapper">
   {Carddata.map((props) =>{
 
-    console.warn("check the data", props)
+     
     return(
-     <Infocard
-      id=     {props.id}
-      title = {props.title}
-      Phone = {props.Phone}
-      Email = {props.Email}
-      Gender ={props.Gender}
-      img = {props.img}
       
-      />)
+      <Infocard
+        id=     {props.id}
+        title = {props.title}
+        Phone = {props.Phone}
+        Email = {props.Email}
+        Gender ={props.Gender}
+        img = {props.img}
+      />
+
+
+
+    
+    )
   
-  })}
+  })
+  }
+  </div>
+  
+  </div>
+
     </>
   )
 }
