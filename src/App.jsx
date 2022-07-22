@@ -8,8 +8,8 @@ import Services from '../src/Pages/Services'
 import Contact from '../src/Pages/Contact'
 import Navbar from './components/Navbar';
 import Topbar from './components/Topbar';
-import { slideData } from './Slidedata';
-import Infocard from './components/Infocard';
+
+
 
 
 const App = () => {

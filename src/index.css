@@ -6,6 +6,9 @@
                 font-family: 'Spartan', sans-serif;
                 
             }
+            /* Info card mein style apply kiya hi nahi hai to css se kr ky dekh chuka hn us din 
+            write a code here, display:flex, flex by default row hi hota hai , likhnay ki need nahi
+            classes could overlap,   */
             
             body {
                 width: 100%;
@@ -48,11 +51,11 @@
            
          }    */
 
-        
-
-
-
          .card{
            width: 18rem;
 
+         }
+
+         .infoCard .container{
+            display :flex !important;
          }
